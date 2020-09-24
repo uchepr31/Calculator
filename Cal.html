@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Cal.css">
+    <script src="Cal.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ucCalculator</title>
+</head>
+<body>
+    <div id="main">
+        <form name="cal">
+            <input type="text" name="display" id="d"><br>
+            <input type="button" name="btnAC" value="AC" onclick="clean()">
+            <input type="button" name="btnDEL" value="DEL" onclick="del()">
+            <input type="button" name="btndiv" value="/" onclick="uche('/')">
+            <input type="button" name="btnmul" value="*" onclick="uche('*')"><br>
+            <input type="button" name="btn9" value="9" onclick="uche(9)">
+            <input type="button" name="btn8" value="8" onclick="uche(8)">
+            <input type="button" name="btn7" value="7" onclick="uche(7)">
+            <input type="button" name="btnsub" value="-" onclick="uche('-')"><br>
+            <input type="button" name="btn6" value="6" onclick="uche(6)">
+            <input type="button" name="btn5" value="5" onclick="uche(5)">
+            <input type="button" name="btn4" value="4" onclick="uche(4)">
+            <input type="button" name="btn7" value="+" onclick="uche('+')"><br>
+            <input type="button" name="btn3" value="3" id="re" onclick="uche(3)">
+            <input type="button" name="btn2" value="2" id="tw" onclick="uche(2)">
+            <input type="button" name="btn1" value="1" id="one" onclick="uche(1)">
+            <input type="button" name="btneql" value="=" id="e"  onclick="eqn()"> <br>
+            <input type="button" name="btn0" value="0" id = "t" onclick="uche(0)">
+            <input type="button" name="btnAdd" value="." id="j" onclick="uche('.')">
+        </form>
+    </div>
+    
+</body>
+</html>
